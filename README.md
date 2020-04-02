@@ -8,7 +8,7 @@
 
 # logo
 
-![演示Demo](images/taro.png)
+![演示Demo](image/taro.png)
 
 
 ---
