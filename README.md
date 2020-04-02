@@ -6,7 +6,7 @@
 
 ----
 
-[提merage请点我]("https://github.com/lemondreamtobe/Easy-less")
+[提merage请点我](https://github.com/lemondreamtobe/Easy-less)
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/LemonZhang.easy-less.svg)](https://marketplace.visualstudio.com/items?itemName=LemonZhang.easy-less) [![Install](https://vsmarketplacebadge.apphb.com/installs-short/LemonZhang.easy-less.svg)](https://marketplace.visualstudio.com/items?itemName=LemonZhang.easy-less)
 
