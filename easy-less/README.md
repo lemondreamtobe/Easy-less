@@ -23,7 +23,7 @@
 
 # 代码片段
 
-- `absolute-aligned`
+- `absolute-aligned` 绝对定位水平垂直居中
 
 ```javascript
  position: absolute;
@@ -36,7 +36,7 @@
 ```
 
 
-- `border-tb`
+- `border-tb` 上下边框设置
 
 ```javascript
  border-top: @n solid @color;
@@ -44,7 +44,7 @@
 
 ```
 
-- `border-lr`
+- `border-lr` 左右边框设置
 
 ```javascript
  border-left: @n solid @color;
@@ -52,7 +52,7 @@
 
 ```
 
-- `margin-tb`
+- `margin-tb` 上下边距设置
 
 ```javascript
  margin-top: @n;
@@ -60,7 +60,7 @@
 
 ```
 
-- `margin-lr`
+- `margin-lr` 左右边距设置
 
 ```javascript
  margin-left: @n;
@@ -68,7 +68,7 @@
 
 ```
 
-- `padding-tb`
+- `padding-tb` 上下内边距设置
 
 ```javascript
  padding-top: @n;
@@ -76,7 +76,7 @@
 
 ```
 
-- `padding-lr`
+- `padding-lr` 左右内边距设置
 
 ```javascript
  padding-left: @n;
@@ -84,7 +84,7 @@
 
 ```
 
-- `font-YaHei`
+- `font-YaHei` 微软雅黑字体
 
 ```javascript
  font-family: MicrosoftYaHeiUI;
@@ -93,7 +93,7 @@
 
 ```
 
-- `font-ArialMT`
+- `font-ArialMT` ArialMT字体
 
 ```javascript
  font-family: ArialMT;
@@ -102,7 +102,7 @@
 
 ```
 
-- `font-pf-medium`
+- `font-pf-medium` 平方宋字体-细体
 
 ```javascript
  font-family: PingFangSC-Medium;
@@ -111,7 +111,7 @@
 
 ```
 
-- `font-pf-Regular`
+- `font-pf-Regular` 平方宋字体-regular
 
 ```javascript
  font-family: PingFangSC-Regular;
@@ -120,7 +120,7 @@
 
 ```
 
-- `lh`
+- `lh` 快速设置行高
 
 ```javascript
  height: ${1:@h}px;
@@ -128,7 +128,7 @@
 
 ```
 
-- `posAbsolute`
+- `posAbsolute` 快速绝对定位
 
 ```javascript
  position: absolute;
@@ -139,7 +139,7 @@
 
 ```
 
-- `textflow`
+- `textflow` 文本溢出
 
 ```javascript
  white-space: nowrap;
@@ -149,7 +149,7 @@
 
 ```
 
-- `dialog-mask`
+- `dialog-mask` 弹窗遮罩
 
 ```javascript
  opacity: 0.8;
@@ -159,7 +159,7 @@
 
 ```
 
-- `dialog-mask-box`
+- `dialog-mask-box` 弹窗遮罩父级
 
 ```javascript
  position: fixed;
@@ -171,7 +171,7 @@
 
 ```
 
-- `tf-aligned`
+- `tf-aligned` tansform的水平垂直居中
 
 ```javascript
   position: absolute;
@@ -181,7 +181,7 @@
 
 ```
 
-- `wh`
+- `wh` 快速设置宽高
 
 ```javascript
  width: ${1:@h}px;
@@ -189,7 +189,7 @@
 
 ```
 
-- `bone-card`
+- `bone-card` 骨架图卡片
 
 ```javascript
  background: ${1:#F4F4F4;}
@@ -199,7 +199,7 @@
 
 ```
 
-- `bone-box`
+- `bone-box` 骨架图盒子
 
 ```javascript
   position: fixed;
@@ -214,7 +214,7 @@
   transition: all 1s ease;
 ```
 
-- `bone-disappear`
+- `bone-disappear` 骨架图消失动效
 
 ```javascript
  z-index: -1;
