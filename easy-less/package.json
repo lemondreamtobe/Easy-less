@@ -1,0 +1,20 @@
+{
+    "name": "easy-less",
+    "displayName": "Easy-less",
+    "description": "让vscode快速开发less",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.43.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "less",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

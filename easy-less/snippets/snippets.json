@@ -1,0 +1,222 @@
+{
+  "easyless-absolute-aligned": {
+    "prefix": "absolute-aligned",
+    "body": [
+      "position: absolute;",
+      "left: 0px;",
+      "right: 0px;",
+      "top: 0px;",
+      "bottom: 0px;",
+      "margin: auto;"
+    ],
+    "description": "绝对定位水平垂直居中"
+  },
+
+  "easy-less-border-tb": {
+    "prefix": "border-tb",
+    "body": [
+      "border-top: ${1:@n}px solid ${2:@color};",
+      "border-bottom: ${3:@n}px solid ${4:@color};"
+    ],
+    "description": "border上下"
+  },
+
+  "easy-less-border-lr": {
+    "prefix": "border-lr",
+    "body": [
+      "border-left: ${1:@n}px solid ${2:@color};",
+      "border-right: ${3:@n}px solid ${4:@color};"
+    ],
+    "description": "border左右"
+  },
+
+  "easy-less-margin-tb": {
+    "prefix": "margin-tb",
+    "body": [
+      "margin-top: ${1:@n}px;",
+      "margin-bottom: ${3:@n}px;"
+    ],
+    "description": "margin上下"
+  },
+
+  "easy-less-margin-lr": {
+    "prefix": "margin-lr",
+    "body": [
+      "margin-left: ${1:@n}px;",
+      "margin-right: ${3:@n}px;"
+    ],
+    "description": "margin左右"
+  },
+
+  "easy-less-padding-tb": {
+    "prefix": "padding-tb",
+    "body": [
+      "padding-top: ${1:@n}px;",
+      "padding-bottom: ${3:@n}px;"
+    ],
+    "description": "padding上下"
+  },
+
+  "easy-less-padding-lr": {
+    "prefix": "padding-lr",
+    "body": [
+      "padding-left: ${1:@n}px",
+      "padding-right: ${3:@n}px"
+    ],
+    "description": "padding左右"
+  },
+
+  "easy-less-font-MicrosoftYaHeiUI": {
+    "prefix": "font-YaHei",
+    "body": [
+      "font-family: MicrosoftYaHeiUI;",
+      "font-size: ${1:@f}px;",
+      "color: ${2:@c};"
+    ],
+    "description": "雅黑ui字体"
+  },
+
+  "easy-less-font-ArialMT": {
+    "prefix": "font-ArialMT",
+    "body": [
+      "font-family: ArialMT;",
+      "font-size: ${1:@f}px;",
+      "color: ${2:@c};"
+    ],
+    "description": "ArialMT字体"
+  },
+
+  "easy-less-font-pingfangSC-Medium": {
+    "prefix": "font-pf-medium",
+    "body": [
+      "font-family: PingFangSC-Medium;",
+      "font-size: ${1:@f}px;",
+      "color: ${2:@c};"
+    ],
+    "description": "PingFangSC-Medium字体"
+  },
+
+  "easy-less-font-pingfangSC-Regular": {
+    "prefix": "font-pf-Regular",
+    "body": [
+      "font-family: PingFangSC-Regular;",
+      "font-size: ${1:@f}px;",
+      "color: ${2:@c};"
+    ],
+    "description": "PingFangSC-Regular字体"
+  },
+
+  "easy-less-line-with-height": {
+    "prefix": "lh",
+    "body": [
+      "height: ${1:@h}px;",
+      "line-height: ${2:@h}px;"
+    ],
+    "description": "快速设置行高"
+  },
+
+  "easy-less-position": {
+    "prefix": "posAbsolute",
+    "body": [
+      "position: absolute;",
+      "top: ${1:@t}px;",
+      "right: ${2:@r}px;",
+      "bottom: ${3:@b}px;",
+      "left: ${4:@l}px;"
+    ],
+    "description": "快速设置绝对定位"
+  },
+
+  "easy-less-textoverflow": {
+    "prefix": "textflow",
+    "body": [
+      "white-space: nowrap;",
+      "overflow: hidden;",
+      "text-overflow: ellipsis;",
+      "max-width: 100%;"
+    ],
+    "description": "文本溢出"
+  },
+
+  "easy-less-dialog-mask": {
+    "prefix": "dialog-mask",
+    "body": [
+      "opacity: 0.8;",
+      "background: #000000;",
+      "width: 100%;",
+      "height: 100%;"
+    ],
+    "description": "弹窗遮罩"
+  },
+
+  "easy-less-dialog-mask-box": {
+    "prefix": "dialog-mask-box",
+    "body": [
+      "position: fixed;",
+      "z-index: 1000;",
+      "left: 0px;",
+      "right: 0px;",
+      "top: 0px;",
+      "bottom: 0px;",
+      "display: none;"
+    ],
+    "description": "弹窗遮罩-父级"
+  },
+
+  "easy-less-transform-aligned": {
+    "prefix": "tf-aligned",
+    "body": [
+      "position: absolute;",
+      "left: 50%;",
+      "top: 50%;",
+      "transform: translate(-50%, -50%);"
+    ],
+    "description": "tranform的水平垂直居中"
+  },
+
+  "easy-less-width-height": {
+    "prefix": "wh",
+    "body": [
+      "width: ${1:@h}px;",
+      "height: %{2:@h}px;"
+    ],
+    "description": "快速设置宽高"
+  },
+
+  "easy-less-bone-card": {
+    "prefix": "bone-card",
+    "body": [
+      "background: ${1:#F4F4F4;}",
+      "border-radius: ${2:8px;}",
+      "width: ${3:@w}px;",
+      "height: ${4:@h}px;"
+    ],
+    "description": "骨架图卡片"
+  },
+
+  "easy-less-bone-box": {
+    "prefix": "bone-box",
+    "body": [
+      "position: fixed;",
+      "z-index: 9999;",
+      "left: 0px;",
+      "right: 0px;",
+      "top: 0px;",
+      "bottom: 0px;",
+      "font-size: 0px;",
+      "background: #ffffff;",
+      "opacity: 1;",
+      "transition: all 1s ease;"
+    ],
+    "description": "骨架图盒子-父级"
+  },
+
+  "easy-less-bone-disappear": {
+    "prefix": "bone-disappear",
+    "body": [
+      "z-index: -1;",
+      "opacity: 0;"
+    ],
+    "description": "骨架图盒子-父级消失"
+  }
+}
