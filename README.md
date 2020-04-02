@@ -183,7 +183,7 @@
 
 ```javascript
  width: ${1:@h}px;
- height: %{2:@h}px;
+ height: ${2:@h}px;
 
 ```
 

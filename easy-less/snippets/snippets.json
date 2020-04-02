@@ -178,7 +178,7 @@
     "prefix": "wh",
     "body": [
       "width: ${1:@h}px;",
-      "height: %{2:@h}px;"
+      "height: ${2:@h}px;"
     ],
     "description": "快速设置宽高"
   },
