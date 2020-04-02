@@ -5,6 +5,7 @@
     "galleryBanner": {
         "theme": "light"
     },
+    "icon": "image/taro.png",
     "publisher": "LemonZhang",
     "repository": {
         "type": "git",
@@ -44,5 +45,5 @@
             }
         ]
     },
-    "version": "0.0.1"
+    "version": "0.0.2"
 }
