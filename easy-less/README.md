@@ -13,7 +13,7 @@
 
 # logo
 
-![演示Demo](image/taro.png)
+![logo](image/taro.png)
 
 
 ---
