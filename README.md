@@ -3,6 +3,8 @@
 
 为了少敲重复代码,节约时间,快速开发样式;
 
+[![Version](https://vsmarketplacebadge.apphb.com/version/LemonZhang.easy-less.svg)](https://marketplace.visualstudio.com/items?itemName=LemonZhang.easy-less) [![Install](https://vsmarketplacebadge.apphb.com/installs-short/LemonZhang.easy-less.svg)](https://marketplace.visualstudio.com/items?itemName=LemonZhang.easy-less)
+
 -----
 
 # 效果

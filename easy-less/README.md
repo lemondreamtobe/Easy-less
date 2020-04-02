@@ -3,17 +3,20 @@
 
 为了少敲重复代码,节约时间,快速开发样式;
 
+[![Version](https://vsmarketplacebadge.apphb.com/version/LemonZhang.easy-less.svg)](https://marketplace.visualstudio.com/items?itemName=LemonZhang.easy-less) [![Install](https://vsmarketplacebadge.apphb.com/installs-short/LemonZhang.easy-less.svg)](https://marketplace.visualstudio.com/items?itemName=LemonZhang.easy-less)
+
 -----
 
 # 效果
 
 ![演示Demo](image/demo.gif)
 
+
 -----
 
 # logo
 
-![logo](image/taro.png)
+![演示Demo](image/taro.png)
 
 
 ---
