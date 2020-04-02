@@ -1,0 +1,49 @@
+{
+  "name": "Easy-less",
+  "version": "0.0.1",
+  "description": "让vsCode开发less更容易",
+  "displayName": "Easy-less",
+  "publisher": "Lemon",
+  "icon": "images/taro.png",
+  "galleryBanner": {
+    "theme": "light"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lemondreamtobe/Easy-less.git"
+  },
+  "engines": {
+    "vscode": "^1.10.x"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "taro",
+    "vscode",
+    "typescript",
+    "vscode-extension",
+    "taro-snippets",
+    "miniapp",
+    "wechat",
+    "react native"
+  ],
+  "author": {
+    "name": "Lemon",
+    "email": "897418436@qq.com",
+    "url": "https://github.com/lemondreamtobe"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lemondreamtobe/Easy-less/issues"
+  },
+  "homepage": "https://github.com/lemondreamtobe/Easy-less#readme",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "less",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  }
+}
