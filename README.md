@@ -2,6 +2,11 @@
 # Easy-less
 
 为了少敲重复代码,节约时间,快速开发样式;
+如果大家有开发过程中好用的样式 欢迎提merage 
+
+----
+
+[提merage请点我]("https://github.com/lemondreamtobe/Easy-less")
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/LemonZhang.easy-less.svg)](https://marketplace.visualstudio.com/items?itemName=LemonZhang.easy-less) [![Install](https://vsmarketplacebadge.apphb.com/installs-short/LemonZhang.easy-less.svg)](https://marketplace.visualstudio.com/items?itemName=LemonZhang.easy-less)
 
