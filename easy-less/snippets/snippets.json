@@ -234,5 +234,16 @@
       "}"
     ],
     "description": "左右两侧布局"
+  },
+  
+  "easy-less-trangile": {
+    "prefix": "trangile",
+    "body": [
+      "width: 0;",
+      "height: 0;",
+      "border: ${1:@width}px solid;",
+      "border-color: transparent transparent ${2:@color};"
+    ],
+    "description": "css三角形"
   }
 }

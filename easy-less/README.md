@@ -40,6 +40,16 @@
 
 ```
 
+- `trangile` css实现的三角形
+
+```javascript
+ width: 0;
+ height: 0;
+ border: ${1:@width}px solid;
+ border-color: transparent transparent ${2:@color};
+
+```
+
 
 - `border-tb` 上下边框设置
 
@@ -234,11 +244,9 @@
  .left{
     width: @width px;
     float: left;
-    height: 100%;
  }
  .right{
    margin-left: @height px;
-   height: 100%;
  }
 
 ```
