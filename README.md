@@ -227,3 +227,17 @@
 
 ```
 
+
+- `lr-layout` 左右两侧布局
+
+```javascript
+ .left{
+    width: @width px;
+    float: left;
+ }
+ .right{
+   margin-left: @height px;
+ }
+
+```
+
