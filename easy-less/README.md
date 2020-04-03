@@ -234,9 +234,11 @@
  .left{
     width: @width px;
     float: left;
+    height: 100%;
  }
  .right{
    margin-left: @height px;
+   height: 100%;
  }
 
 ```
