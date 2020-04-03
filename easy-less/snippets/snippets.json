@@ -223,12 +223,12 @@
   "easy-less-left-right-layout": {
     "prefix": "lr-layout",
     "body": [
-      ".left: {",
+      ".left {",
       "\tfloat: left;",
       "\twidth: ${1:@width}px;",
       "\theight: 100%;",
       "}",
-      ".right: {",
+      ".right {",
       "\tmargin-left: ${2:@height}px;",
       "\theight: 100%;",
       "}"
