@@ -218,8 +218,8 @@
       "opacity: 0;"
     ],
     "description": "骨架图盒子-父级消失"
-  }, 
-  
+  },
+
   "easy-less-left-right-layout": {
     "prefix": "lr-layout",
     "body": [
@@ -235,7 +235,7 @@
     ],
     "description": "左右两侧布局"
   },
-  
+
   "easy-less-trangile": {
     "prefix": "trangile",
     "body": [
@@ -245,5 +245,116 @@
       "border-color: transparent transparent ${2:@color};"
     ],
     "description": "css三角形"
+  },
+
+
+  "easy-less-flex-layout-lr": {
+    "prefix": "flex-lr-layout",
+    "body": [
+      "display: flex;",
+      "height: ${1: 200px};",
+      "flex-wrap: nowrap",
+      ".left {",
+      "\twidth: ${2: 200px};",
+      "}",
+      ".right {",
+      "\t flex: 1",
+      "}"
+    ],
+    "description": "flex左侧定宽布局"
+  },
+
+  "easy-less-flex-layout-rl": {
+    "prefix": "flex-rl-layout",
+    "body": [
+      "display: flex;",
+      "height: ${1: 200px};",
+      "flex-wrap: nowrap",
+      ".left {",
+      "\tflex: 1",
+      "}",
+      ".right {",
+      "\twidth: ${2: 200px};",
+      "}"
+    ],
+    "description": "flex右侧定宽布局"
+  },
+
+  "easy-less-flex-layout-middle": {
+    "prefix": "flex-middle-layout",
+    "body": [
+      "display: flex;",
+      "justify-content: space-around;",
+      "&>div {",
+      "\twidth: ${1: 200px}",
+      "}"
+    ],
+    "description": "flex多栏居中布局"
+  },
+
+  "easy-less-flex-layout-middleSide": {
+    "prefix": "flex-middleSide-layout",
+    "body": [
+      "display: flex;",
+      "justify-content: space-between;",
+      "&>div {",
+      "\twidth: ${1: 200px}",
+      "}"
+    ],
+    "description": "flex多栏居中两侧贴边布局"
+  },
+
+  "easy-less-flex-layout-column-tmb": {
+    "prefix": "flex-column-tmb",
+    "body": [
+      "justify-content: space-between;",
+      "display: flex;",
+      "flex-direction: column;",
+      ".top {",
+      "\theight: ${1: 200px}",
+      "}",
+      ".bottom {",
+      "\theight: ${1: 200px}",
+      "}",
+      ".middle {",
+      "\tflex: 1",
+      "\toverflow: auto;",
+      "}"
+    ],
+    "description": "flex垂直头部底部固定，中间内容可滚动"
+  },
+
+  "easy-less-flex-layout-column-tm": {
+    "prefix": "flex-column-tm",
+    "body": [
+      "justify-content: space-between;",
+      "display: flex;",
+      "flex-direction: column;",
+      ".top {",
+      "\theight: ${1: 200px}",
+      "}",
+      ".middle {",
+      "\tflex: 1",
+      "\toverflow: auto;",
+      "}"
+    ],
+    "description": "flex垂直头部固定，中间内容可滚动"
+  },
+
+  "easy-less-flex-layout-column-mb": {
+    "prefix": "flex-column-mb",
+    "body": [
+      "justify-content: space-between;",
+      "display: flex;",
+      "flex-direction: column;",
+      ".bottom {",
+      "\theight: ${1: 200px}",
+      "}",
+      ".middle {",
+      "\tflex: 1",
+      "\toverflow: auto;",
+      "}"
+    ],
+    "description": "flex垂直底部固定，中间内容可滚动"
   }
 }
