@@ -14,14 +14,14 @@
 
 # 效果
 
-![演示Demo](image/demo.gif)
+![演示Demo](../image/demo.gif)
 
 
 -----
 
 # logo
 
-![演示Demo](image/taro.png)
+![演示Demo](../image/taro.png)
 
 
 ---
