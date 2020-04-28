@@ -253,12 +253,14 @@
     "body": [
       "display: flex;",
       "height: ${1: 200px};",
-      "flex-wrap: nowrap",
+      "flex-wrap: nowrap;",
+      "",
       ".left {",
       "\twidth: ${2: 200px};",
       "}",
+      "",
       ".right {",
-      "\t flex: 1",
+      "\t flex: 1;",
       "}"
     ],
     "description": "flex左侧定宽布局"
@@ -269,10 +271,12 @@
     "body": [
       "display: flex;",
       "height: ${1: 200px};",
-      "flex-wrap: nowrap",
+      "flex-wrap: nowrap;",
+      "",
       ".left {",
-      "\tflex: 1",
+      "\tflex: 1;",
       "}",
+      "",
       ".right {",
       "\twidth: ${2: 200px};",
       "}"
@@ -285,8 +289,9 @@
     "body": [
       "display: flex;",
       "justify-content: space-around;",
+      "",
       "&>div {",
-      "\twidth: ${1: 200px}",
+      "\twidth: ${1: 200px};",
       "}"
     ],
     "description": "flex多栏居中布局"
@@ -297,8 +302,9 @@
     "body": [
       "display: flex;",
       "justify-content: space-between;",
+      "",
       "&>div {",
-      "\twidth: ${1: 200px}",
+      "\twidth: ${1: 200px};",
       "}"
     ],
     "description": "flex多栏居中两侧贴边布局"
@@ -310,14 +316,17 @@
       "justify-content: space-between;",
       "display: flex;",
       "flex-direction: column;",
+      "",
       ".top {",
-      "\theight: ${1: 200px}",
+      "\theight: ${1: 200px};",
       "}",
+      "",
       ".bottom {",
-      "\theight: ${1: 200px}",
+      "\theight: ${1: 200px};",
       "}",
+      "",
       ".middle {",
-      "\tflex: 1",
+      "\tflex: 1;",
       "\toverflow: auto;",
       "}"
     ],
@@ -330,11 +339,13 @@
       "justify-content: space-between;",
       "display: flex;",
       "flex-direction: column;",
+      "",
       ".top {",
-      "\theight: ${1: 200px}",
+      "\theight: ${1: 200px};",
       "}",
+      "",
       ".middle {",
-      "\tflex: 1",
+      "\tflex: 1;",
       "\toverflow: auto;",
       "}"
     ],
@@ -347,11 +358,13 @@
       "justify-content: space-between;",
       "display: flex;",
       "flex-direction: column;",
+      "",
       ".bottom {",
-      "\theight: ${1: 200px}",
+      "\theight: ${1: 200px};",
       "}",
+      "",
       ".middle {",
-      "\tflex: 1",
+      "\tflex: 1;",
       "\toverflow: auto;",
       "}"
     ],
