@@ -255,7 +255,7 @@
 - `flex-rl-layout` flex右侧定宽布局
 ### 效果
 
-![演示Demo](../image/flex-lr-layout.jpg)
+![演示Demo](./image/flex-lr-layout.jpg)
 
 
 - `flex-middle-layout` flex多栏居中布局
