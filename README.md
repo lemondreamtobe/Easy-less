@@ -252,43 +252,38 @@
 ```
 
 - `flex-rl-layout` flex左侧定宽布局
-# 效果
-
-![演示Demo](./image/flex-lr-layout.jpg)
-
-
 - `flex-rl-layout` flex右侧定宽布局
-# 效果
+### 效果
 
-![演示Demo](./image/flex-lr-layout.jpg)
+![演示Demo](../image/flex-lr-layout.jpg)
 
 
 - `flex-middle-layout` flex多栏居中布局
-# 效果
+## 效果
 
 ![演示Demo](./image/flex-middle-layout.jpg)
 
 
 - `flex-middleSide-layout` flex多栏居中两侧贴边布局
-# 效果
+## 效果
 
 ![演示Demo](./image/flex-middleSide-layout.jpg)
 
 
 - `flex-column-tmb` flex垂直头部底部固定，中间内容可滚动
-# 效果
+## 效果
 
 ![演示Demo](./image/flex-column-tmb.jpg)
 
 
 - `flex-column-tm` flex垂直头部固定，中间内容可滚动
-# 效果
+## 效果
 
 ![演示Demo](./image/flex-column-tm.jpg)
 
 
 - `flex-column-mb` flex垂直底部固定，中间内容可滚动
-# 效果
+## 效果
 
 ![演示Demo](./image/flex-column-mb.jpg)
 
